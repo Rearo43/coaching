@@ -1,20 +1,27 @@
 body { 
-    background-color: rgb(238, 89, 89);
-
+    background-color: rgb(53, 40, 40);
+    padding: 15px;
 }
 header {
     width: 10px;
     background-color: rgb(189, 99, 99);
-
+    padding: 15px;
 }
 image {
     height: 125px;
+    padding: 15px;
 }
 nav {
-    background-color: darkmagenta;
+    background-color: rgb(64, 75, 62);
     width: 800px;
     height: 125px;
     display: scroll;
+}
+main {
+    background-color: cornsilk;
+}
+.mid {
+
 
 }
 footer {
@@ -23,4 +30,8 @@ footer {
     color: cornsilk;
     display: block;
     text-align: center;
+}
+/* Change the link color to cyan on hover */
+.links a:hover {
+    background-color: cyan;
 }
