@@ -28,7 +28,7 @@ if (answers === 'Male') {
     confirm('Great, we have coaches excited to talk to you')
     banana = 'cool, me too!!';
 } else if (answers === 'Female') {
-    banana = 'Sounds great many of our female coaches are on their way to the WNBS!';
+    banana = 'Sounds great many of our female coaches are on their way to the WNBA!';
 } 
 //else if (answers === 'Basketball') {
  //   banana = '';
