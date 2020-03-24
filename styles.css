@@ -7,14 +7,11 @@ header {
     background-color: rgb(189, 99, 99);
     padding: 15px;
 }
-image {
-    height: 125px;
-    padding: 15px;
-}
+    
 nav {
     background-color: rgb(64, 75, 62);
-    width: 800px;
-    height: 125px;
+    width: 400px;
+    height: 95px;
     display: scroll;
 }
 main {
@@ -25,11 +22,12 @@ main {
 
 }
 footer {
-    width: 800px;
-    background-color: black;
+    width: 400px;
+    background-color: rgb(88, 48, 48);
     color: cornsilk;
     display: block;
     text-align: center;
+    list-style: none;
 }
 /* Change the link color to cyan on hover */
 .links a:hover {

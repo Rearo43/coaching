@@ -47,18 +47,36 @@ document.write('<h3>' + ageBack + '</h3>');
 }
 
 
-//////////////////////////Loop
-var practice = prompt('Number of times you practice a week.');
-var number = 0
-if (practice > 0 || x <= 7){
+////////////////////////Loop
+function timesWeek() {
+    var practice = prompt("Number of times you practice a week?");
+    var cost = 75;
+    var numHours = 0;
+    var total = 0;
+
+    while (practice === 0 && practice > 7){
+        practice = prompt("Number of times you practice a week. (Please answer with a number between 0 and 7.)");
+        
+
+    }
+    var hard = prompt('How hard are your practices 0 to 10?');
+    if (hard > 0){
+        alert('You work out ' + practice + ' times a week at an intesity level of ' + hard + ' I suggest you hire us .' );
+    }
+    if(hard <= 5){
+        numHours = 4;
+    }else if(hard >=6 ){
+        numHours = 2;
+        
+    }
+
+    for( var i = 0; i <= practice; i++){
+        total = total + (numHours * cost);
+        
+    }
+    return total 
+}
+
     for (let i = 0; i < practice ; i++)
-    number++;
-
-}
-
-document.getElementById("times").innerHTML = "That's great, but we can help you get the most out of those"+ number +"practices!";
-document.getElementById("click").style.visibility = 'visible'
-else {
-    document.getElementById("times").innerHTML = "You don't have to tell us now!"
-    document.getElementById("click").style.visibility = 'visible';
-}
+        number++;
+ 
